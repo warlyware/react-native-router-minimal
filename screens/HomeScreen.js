@@ -1,11 +1,7 @@
 import React from 'react';
 import {
-  Image,
-  Platform,
-  ScrollView,
   StyleSheet,
   Text,
-  TouchableOpacity,
   View,
 } from 'react-native';
 import { WebBrowser } from 'expo';
@@ -20,7 +16,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.home}>
+        <Text style={styles.headline}>
           Home
         </Text>
       </View>
@@ -35,7 +31,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#608FA0',
   },
-  home: {
+  headline: {
     fontWeight: 'bold',
     fontSize: 30,
     color: 'white',
