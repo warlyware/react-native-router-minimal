@@ -4,7 +4,6 @@ import {
   Text,
   View,
 } from 'react-native';
-import { ExpoConfigView } from '@expo/samples';
 
 export default class SettingsScreen extends React.Component {
   static navigationOptions = {
@@ -27,7 +26,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#F8759D',
+    backgroundColor: '#F0642E',
   },
   headline: {
     fontWeight: 'bold',
