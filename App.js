@@ -1,6 +1,6 @@
 import React from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
-import RootNavigation from './navigation/RootNavigation';
+import MainTabNavigator from './navigation/MainTabNavigator';
 
 export default class App extends React.Component {
   render() {
@@ -8,7 +8,7 @@ export default class App extends React.Component {
         <View style={styles.container}>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
           {Platform.OS === 'android' && <View style={styles.statusBarUnderlay} />}
-          <RootNavigation />
+          <MainTabNavigator />
         </View>
       );
   }
