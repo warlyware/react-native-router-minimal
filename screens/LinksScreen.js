@@ -6,10 +6,6 @@ import {
 } from 'react-native';
 
 export default class LinksScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Links',
-  };
-
   render() {
     return (
       <View style={styles.container}>
