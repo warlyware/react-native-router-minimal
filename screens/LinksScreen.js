@@ -1,8 +1,8 @@
 import React from 'react';
 import {
+  StyleSheet,
   Text,
   View,
-  StyleSheet
 } from 'react-native';
 
 export default class LinksScreen extends React.Component {
