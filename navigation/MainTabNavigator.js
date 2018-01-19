@@ -1,15 +1,10 @@
 import React from 'react';
-import { Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { TabNavigator, TabBarBottom } from 'react-navigation';
 
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-const Colors = {
-  tabIconDefault: '#ccc',
-  tabIconSelected: '#2f95dc',
-}
 
 export default TabNavigator({
   Home: {
@@ -50,3 +45,8 @@ export default TabNavigator({
   animationEnabled: false,
   swipeEnabled: false,
 });
+
+const Colors = {
+  tabIconDefault: '#ccc',
+  tabIconSelected: '#2f95dc',
+}
